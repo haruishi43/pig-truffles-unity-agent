@@ -24,6 +24,9 @@ public class PigAcademy : Academy
             area.numStumps = (int)resetParameters["num_stumps"];
             area.spawnRange = resetParameters["spawn_range"];
 
+            Debug.LogWarning(area.numTruffles);
+            Debug.LogWarning(area.numStumps);
+
             area.ResetArea();
         }
     }
